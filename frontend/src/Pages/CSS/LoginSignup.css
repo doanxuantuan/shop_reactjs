@@ -1,0 +1,42 @@
+
+.LoginSignUp{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 650px;
+    margin: 140px auto;
+    background: white;
+}
+.login-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.login-container h1{
+    text-align: center;
+}
+.login-container input{
+    height: 50px;
+}
+.login-container button{
+    color: white;
+    background: #ff4141;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.login-container span{
+    color: #ff4141;
+}
+.login-container .check-privacy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.login-container .check-privacy p{
+    margin-left: 10px;
+
+}
+
