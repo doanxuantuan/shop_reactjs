@@ -4,8 +4,9 @@ import star_icon from "../Assets/star_icon.png"
 import star_dull_icon from "../Assets/star_dull_icon.png"
 import { ShopContext } from '../../Context/ShopContext'
 const ProductsDisplay = (props) => {
-  const {product}=props;
-  const {addToCart}=useContext(ShopContext);
+  
+      const {product}=props;
+      const{addToCart}=useContext(ShopContext);
   return (
     <div className='ProductsDisplay'>
         <div className="products-display-left"> 

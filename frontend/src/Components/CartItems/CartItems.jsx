@@ -33,13 +33,13 @@ const CartItems = () => {
                 }
                 return null;
         })}
-        <div className="cartitems-down">
+          <div className="cartitems-down">
             <div className="cartitems-total">
                 <h1>Cart Total</h1>
                 <div>
                     <div className="cartitems-total-item">
                         <p>Subtatal</p>
-                        <p>${getTotalCartAmount()}</p>
+                         <p>${getTotalCartAmount()}</p>
                     </div>
                     <hr/>
                     <div className="cartitems-total-item">
@@ -49,7 +49,7 @@ const CartItems = () => {
                     <hr/>
                     <div className="cartitems-total-item">
                         <h3>Total</h3>
-                        <h3>${getTotalCartAmount()}</h3>
+                        <h3>${getTotalCartAmount()}</h3> 
                     </div>
                 </div>
                 <button>PROCEED TO CHECKOUT</button>

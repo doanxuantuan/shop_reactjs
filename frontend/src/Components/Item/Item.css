@@ -1,7 +1,10 @@
-.iem{
-    width: 350px;
+.Item{
+    width: 280px;
 }
-.item p{
+.Item img{
+    width: 280px;
+}
+.Item p{
     margin: 6px 0px;
 }
 .item-prices{
@@ -19,7 +22,52 @@
     font-weight: 500;
     text-decoration: line-through;
 }
-.item:hover{
+.Item:hover{
     transform: scale(1.05);
     transition: 0.6s;
+}
+@media(max-width:1280px){
+    .Item{
+        width: 220px;
+        font-size: 14px;
+    }
+    .Item img{
+        width: 220px;
+    }
+    .item-price-old{
+        font-size: 14px;
+    }
+}
+@media(max-width:1024px){
+    .Item{
+        width: 170px;
+        font-size: 13px;
+    }
+    .Item img{
+        width: 170px;
+    }
+    .item-price-old{
+        font-size: 13px;
+    }
+}
+@media(max-width:800px){
+    .Item{
+        width: 120px;
+        font-size: 12px;
+    }
+    .Item img{
+        width: 170px;
+    }
+    .item-price-old{
+        font-size: 12px;
+    }
+}
+@media(max-width:500px){
+    .Item{
+        width: 160px;
+    }
+    .Item img{
+        width: 160px;
+    }
+    
 }
